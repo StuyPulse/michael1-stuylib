@@ -1,6 +1,6 @@
-MIDlet-Name: Michael1-stuylib
+MIDlet-Name: RobotTemplate
 MIDlet-Version: 1.0.0
 MIDlet-Vendor: FIRST
-MIDlet-1: FRC_UserProgram, , org.usfirst.frc.FRC_UserProgram
+MIDlet-1: Michael1Stuylib, , edu.wpi.first.wpilibj.templates.Michael1Stuylib
 MicroEdition-Profile: IMP-1.0
 MicroEdition-Configuration: CLDC-1.1
