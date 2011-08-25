@@ -9,6 +9,7 @@ package edu.wpi.first.wpilibj.templates;
 
 
 import edu.wpi.first.wpilibj.*;
+//TODO: Add stuylib import statement
 
 
 /**
@@ -23,13 +24,14 @@ public class Michael1Stuylib extends SimpleRobot {
      * This function is called once each time the robot enters autonomous mode.
      */
 
-    DashboardUpdater du;
-    UserInput in;
-    DriveConstants config;
+    DashboardUpdater du; // From Stuylib
+    UserInput in;   // From Stuylib
+    DriveConstants config; // DriveConstants interface is from Stuylib
 
     public RobotTemplate() {
-        config = new UserInputConfig();
+        config = new UserInputConfig(); // UserInputConfig class is user-defined
         in = new UserInput(config);
+        out = new UserOutput(in, Log.DEBUG_STDOUT); // Takes UserInput reference and logging mode
         du = new DashboardUpdater(this);
     }
     public void autonomous() {
