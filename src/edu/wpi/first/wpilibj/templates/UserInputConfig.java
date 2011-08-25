@@ -7,9 +7,9 @@ package edu.wpi.first.wpilibj.templates;
 
 /**
  *
- * @author Ginkgo
+ * @author Alejandro Carrillo
  */
-public class UserInputConfig implements DriveConstants{
+public class UserInputConfig implements DriveConstants{ // DriveConstants is a Stuylib interface
 
 
     int getLeftStickPort() {
